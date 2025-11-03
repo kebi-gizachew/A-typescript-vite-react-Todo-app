@@ -1,4 +1,4 @@
-import Store from './Store'
+import Store from './Store.js'
 type Sets={
     id:string,
     title:string,

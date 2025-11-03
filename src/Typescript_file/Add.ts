@@ -1,4 +1,4 @@
-import Store from './Store'
+import Store from './Store.js'
 type Added={
     id:string,
     title:string,

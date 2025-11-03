@@ -1,4 +1,4 @@
-import Store from './Store'
+import Store from './Store.js'
 type Mod={
     id:string,
     title:string,
