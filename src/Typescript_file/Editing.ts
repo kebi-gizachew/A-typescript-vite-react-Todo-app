@@ -5,6 +5,7 @@ type sets={
     note:string,
     date:string
 }
+
 function Editing(id:string, setEdit:(item:sets|undefined)=>void):void{
         const items=Store.find((item)=>{
             return item.id===id})

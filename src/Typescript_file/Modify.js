@@ -1,4 +1,4 @@
-import Store from './Store';
+import Store from './Store.js';
 function Modify({ id, title, note, date }) {
     Store.forEach((item) => {
         if (item.id === id) {

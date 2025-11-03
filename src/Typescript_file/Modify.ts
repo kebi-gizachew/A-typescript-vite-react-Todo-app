@@ -14,3 +14,4 @@ function Modify({id,title,note,date}:Mod){
 }})
 }
 export default Modify
+

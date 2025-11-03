@@ -1,12 +1,12 @@
-import Store from './Store';
+import Store from './Store.js';
 function Add({ note, title, date, id }) {
     const sets = {
-        id: id,
-        title: title,
-        note: note,
-        date: date
+        id: String(id),
+        title: String(title),
+        note: String(note),
+        date: String(date)
     };
-    Store.push(sets);
+    Store.push({ ...sets });
 }
 export default Add;
 //# sourceMappingURL=Add.js.map

@@ -7,13 +7,11 @@ type Added={
 }
 function Add({note,title,date,id}:Added):void{
     const sets:Added={
-        id:id,
-        title:title,
-        note:note,
-        date:date
+        id:String(id),
+        title:String(title),
+        note:String(note),
+        date:String(date)
     }
-    Store.push(
-        sets
-    )
+    Store.push({...sets})
 }
 export default Add

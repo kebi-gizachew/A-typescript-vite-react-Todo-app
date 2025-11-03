@@ -1,4 +1,4 @@
-import Store from './Store';
+import Store from './Store.js';
 function Editing(id, setEdit) {
     const items = Store.find((item) => {
         return item.id === id;
