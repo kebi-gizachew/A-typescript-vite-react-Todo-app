@@ -1,16 +1,40 @@
-# React + Vite
+## Vite + React To-Do App
+[Deployment Link](https://a-typescript-vite-react-todo-app.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A simple To-Do application built with Vite, React, and JavaScript/Typescript.
+Users can add, edit, and delete tasks with a title, note, and due date. Each task has a unique ID.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Originally built in TypeScript, now compiled to JavaScript for deployment.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Add tasks with title, note, and date
 
-## Expanding the ESLint configuration
+# Edit or delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Unique IDs for each task
+
+## Technologies
+
+# React, Vite, JavaScript
+
+# TailwindCSS for styling
+
+# React Icons
+
+## Clone the repo
+
+git clone https://github.com/kebi-gizachew/A-typescript-vite-react-Todo-app.git
+
+## Install dependencies
+
+npm install
+Run development server
+npm run dev
+## Usage
+
+Enter title, note, and date
+Click "+" to add task
+Edit or delete tasks as needed
