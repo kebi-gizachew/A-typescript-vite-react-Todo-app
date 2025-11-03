@@ -10,19 +10,13 @@ Originally built in TypeScript, now compiled to JavaScript for deployment.
 
 ## Features
 
-# Add tasks with title, note, and date
-
-# Edit or delete tasks
-
-# Unique IDs for each task
-
+Add tasks with title, note, and date
+Edit or delete tasks
+Unique IDs for each task
 ## Technologies
-
-# React, Vite, JavaScript
-
-# TailwindCSS for styling
-
-# React Icons
+React, Vite, JavaScript
+TailwindCSS for styling
+React Icons
 
 ## Clone the repo
 
